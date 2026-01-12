@@ -1,24 +1,24 @@
 import { Quote } from "lucide-react"
 
 const testimonials = [
-  {
-    quote:
-      "Ekhaya Farms has transformed how our family eats. The quality of their produce is unmatched anywhere in Lilongwe.",
-    author: "Grace Banda",
-    role: "Customer, Lilongwe",
-  },
-  {
-    quote:
-      "As a partner farmer, Ekhaya has provided us with training and fair prices. They truly care about our community.",
-    author: "James Phiri",
-    role: "Partner Farmer, Mzuzu",
-  },
-  {
-    quote:
-      "The convenience of having fresh, locally-grown produce available at every Ekhaya store has been wonderful for our restaurant.",
-    author: "Sarah Mwale",
-    role: "Restaurant Owner, Blantyre",
-  },
+{
+  quote:
+    "Seeing families enjoy healthier meals because of the produce we grow and supply is what makes my work at Ekhaya Farms truly meaningful.",
+  author: "Grace Banda",
+  role: "Customer Relations Officer",
+},
+{
+  quote:
+    "Working closely with our partner farmers and supporting them with training and fair pricing reminds me every day that Ekhaya Farms is about people, not just produce.",
+  author: "James Phiri",
+  role: "Farmer Partnership Coordinator",
+},
+{
+  quote:
+    "Knowing that restaurants rely on us for fresh, locally-grown produce motivates our team to maintain high standards across every Ekhaya store.",
+  author: "Sarah Mwale",
+  role: "Retail & Hospitality Liaison",
+},
 ]
 
 export function TestimonialsSection() {
@@ -28,7 +28,7 @@ export function TestimonialsSection() {
         <div className="text-center mb-16">
           <span className="text-blackfont-medium text-sm tracking-wider uppercase mb-4 block">Testimonials</span>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#D4AF37] text-balance">
-            Voices from Our Community
+            Voices from the Inside 
           </h2>
         </div>
 
