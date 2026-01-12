@@ -4,7 +4,7 @@ const highlights = [
   {
     icon: Leaf,
     title: "Sustainable Farming",
-    description: "Climate-smart agricultural practices that protect our environment for future generations.",
+    description: "Climate smart agricultural practices that protect our environment for future generations.",
   },
   {
     icon: Users,
@@ -19,7 +19,7 @@ const highlights = [
   {
     icon: Truck,
     title: "Wide spread Distribution",
-    description: "Our network of stores brings farm-fresh products to all 8 districts.",
+    description: "Our network of stores brings farm-fresh products to all 8 outlets across Malawi.",
   },
 ];
 

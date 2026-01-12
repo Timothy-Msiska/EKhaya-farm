@@ -10,7 +10,7 @@ export function CTASection() {
           Ready to Experience Farm-Fresh Quality?
         </h2>
         <p className="text-background/70 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
-          Visit your nearest Ekhaya Farm Food Store and discover the difference that sustainable, locally-grown produce
+          Visit your nearest Ekhaya Farm Food Store and discover the difference that sustainable, locally grown produce
           can make for your family.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

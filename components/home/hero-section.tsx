@@ -29,7 +29,7 @@ export function HeroSection() {
         </h1>
 
         <p className="text-lg sm:text-xl text-background/80 max-w-2xl mx-auto mb-10 leading-relaxed text-pretty">
-          Ekhaya Farms is a trusted Malawian agricultural company producing high-quality fresh produce, distributed
+          Ekhaya Farms is a trusted Malawian agricultural company producing high quality fresh produce, distributed
           exclusively through our network of Ekhaya Farm Food Stores.
         </p>
 

@@ -7,7 +7,7 @@ const features = [
   },
   {
     title: "Quality Processing",
-    description: "State-of-the-art facilities ensure our produce maintains peak freshness from harvest to store.",
+    description: "State of the art facilities ensure our produce maintains peak freshness from harvest to store.",
     image: "/modern-food-processing-facility-with-fresh-produce.jpg",
   },
   {
