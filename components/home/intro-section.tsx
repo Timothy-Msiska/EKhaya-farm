@@ -18,7 +18,7 @@ const highlights = [
   },
   {
     icon: Truck,
-    title: "Nationwide Distribution",
+    title: "Wide spread Distribution",
     description: "Our network of stores brings farm-fresh products to all 8 districts.",
   },
 ];

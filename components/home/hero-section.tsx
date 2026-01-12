@@ -19,7 +19,7 @@ export function HeroSection() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 pt-24 pb-16 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-background/10 backdrop-blur-sm border border-background/20 text-background/90 text-sm mb-8">
           <MapPin className="w-4 h-4" />
-          <span>Serving all 8 districts of Malawi</span>
+          <span>Serving all 8 outlets of Malawi</span>
         </div>
 
         <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-background leading-tight mb-6 text-balance">

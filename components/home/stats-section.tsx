@@ -2,8 +2,8 @@ import { AnimatedCounter } from "@/components/animated-counter"
 
 const stats = [
   { value: 15, suffix: "+", label: "Years of Excellence" },
-  { value: 8, suffix: "", label: "Districts Served" },
-  { value: 500, suffix: "+", label: "Local Farmers" },
+  { value: 8, suffix: "", label: "Outlets Served" },
+  { value: 500, suffix: "+", label: "Labour Force" },
   { value: 50000, suffix: "+", label: "Families Fed Daily" },
 ]
 
