@@ -3,18 +3,18 @@ const features = [
     title: "From Our Fields",
     description:
       "Every product starts at our carefully managed farms across Malawi, where sustainable practices meet traditional knowledge.",
-    image: "/farmers-harvesting-fresh-vegetables-in-african-far.jpg",
+    image: "/field-image.png",
   },
   {
     title: "Quality Processing",
     description: "State of the art facilities ensure our produce maintains peak freshness from harvest to store.",
-    image: "/modern-food-processing-facility-with-fresh-produce.jpg",
+    image: "/quality-pro.png",
   },
   {
     title: "To Your Community",
     description:
       "Our network of Ekhaya Farm Food Stores delivers farm-fresh goodness to neighborhoods across all 8 districts.",
-    image: "/modern-grocery-store-with-fresh-vegetables-and-fru.jpg",
+    image: "/meat-shelf.png",
   },
 ];
 
