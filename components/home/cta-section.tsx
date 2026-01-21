@@ -17,7 +17,7 @@ export function CTASection() {
           <Link href="/distribution">
             <Button size="lg" variant="secondary" className="rounded-xl text-base px-8 gap-2">
               <MapPin className="w-4 h-4" />
-              Find a Store Near You
+              Find Store
             </Button>
           </Link>
           <Link href="/contact">

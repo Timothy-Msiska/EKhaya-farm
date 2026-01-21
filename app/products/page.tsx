@@ -6,55 +6,59 @@ import { Button } from "@/components/ui/button"
 
 const productCategories = [
   {
-    name: "Fresh Vegetables",
-    description: "Farm-fresh vegetables harvested at peak ripeness for maximum nutrition and flavor.",
+    name: "Fresh Red Meat",
+    description:
+      "Professionally slaughtered and hygienically processed red meat sourced from cattle, goats, and sheep.",
     products: [
-      { name: "Tomatoes", image: "/fresh-red-ripe-tomatoes.jpg" },
-      { name: "Cabbage", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Onions", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Peppers", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Leafy Greens", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Carrots", image: "/placeholder.svg?height=200&width=200" },
+      { name: "Beef (Cattle)", image: "/meat-splash-1.jpg" },
+      { name: "Goat Meat", image: "/meat-splash-2.jpg" },
+      { name: "Mutton (Sheep Meat)", image: "/meat-splash-3.jpg" },
+      { name: "Mixed Red Meat Cuts", image: "/meat-splash-4.jpg" },
     ],
   },
   {
-    name: "Grains & Cereals",
-    description: "Premium quality grains grown in Malawi's fertile soil, processed to the highest standards.",
+    name: "Primary Meat Cuts",
+    description:
+      "Standard meat cuts prepared according to food safety regulations and quality control procedures.",
     products: [
-      { name: "Maize", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Rice", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Sorghum", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Millet", image: "/placeholder.svg?height=200&width=200" },
+      { name: "Steak Cuts", image: "/meat-splash-1.jpg" },
+      { name: "Ribs", image: "/meat-splash-2.jpg" },
+      { name: "Brisket", image: "/meat-splash-3.jpg" },
+      { name: "Chunks & Portions", image: "/meat-splash-4.jpg" },
+      { name: "Bone-in Cuts", image: "/meat-splash-1.jpg" },
+      { name: "Boneless Cuts", image: "/meat-splash-2.jpg" },
     ],
   },
   {
-    name: "Fresh Fruits",
-    description: "Sweet, juicy fruits from our orchards, picked at the perfect moment of ripeness.",
+    name: "Processed Meat Products",
+    description:
+      "Value-added meat products processed for extended shelf life while maintaining quality and safety.",
     products: [
-      { name: "Mangoes", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Bananas", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Oranges", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Papayas", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Avocados", image: "/placeholder.svg?height=200&width=200" },
+      { name: "Sausages", image: "/meat-splash-3.jpg" },
+      { name: "Smoked Meat", image: "/meat-splash-4.jpg" },
+      { name: "Dried Meat", image: "/meat-splash-1.jpg" },
+      { name: "Minced Meat", image: "/meat-splash-2.jpg" },
     ],
   },
   {
-    name: "Legumes",
-    description: "Protein-rich legumes essential for a balanced, healthy diet.",
+    name: "Edible Offals",
+    description:
+      "Carefully cleaned and handled edible offals processed in compliance with hygiene standards.",
     products: [
-      { name: "Beans", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Groundnuts", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Soybeans", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Cowpeas", image: "/placeholder.svg?height=200&width=200" },
+      { name: "Liver", image: "/meat-splash-3.jpg" },
+      { name: "Kidneys", image: "/meat-splash-4.jpg" },
+      { name: "Tripe", image: "/meat-splash-1.jpg" },
+      { name: "Heart", image: "/meat-splash-2.jpg" },
     ],
   },
   {
-    name: "Farm Products",
-    description: "Quality farm products from our livestock and processing facilities.",
+    name: "Non-Edible By-Products",
+    description:
+      "Non-edible meat by-products handled responsibly as part of sustainable abattoir operations.",
     products: [
-      { name: "Fresh Eggs", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Honey", image: "/placeholder.svg?height=200&width=200" },
-      { name: "Dairy", image: "/placeholder.svg?height=200&width=200" },
+      { name: "Bones", image: "/meat-splash-1.jpg" },
+      { name: "Hides & Skins", image: "/meat-splash-2.jpg" },
+      { name: "Animal Fat", image: "/meat-splash-3.jpg" },
     ],
   },
 ]
@@ -68,45 +72,60 @@ export default function ProductsPage() {
         <section className="pt-32 pb-20 bg-muted/30">
           <div className="max-w-6xl mx-auto px-4">
             <div className="max-w-3xl">
-              <span className="text-primary font-medium text-sm tracking-wider uppercase mb-4 block">Our Products</span>
-              <h1 className="font-serif text-4xl sm:text-5xl font-bold text-foreground mb-6 text-balance">
-                Fresh From Our Farms to You
+              <span className="text-black font-medium text-sm tracking-wider uppercase mb-4 block">
+                Meat Processing
+              </span>
+              <h1 className="font-serif text-4xl sm:text-5xl font-bold text-[#b5942f] mb-6 text-balance">
+                Hygienically Processed Livestock Meat
               </h1>
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                Discover our range of high-quality agricultural products, grown with care and delivered fresh to Ekhaya
-                Farm Food Stores across all 8 districts of Malawi.
+                We specialize exclusively in livestock slaughter and meat processing,
+                ensuring high standards of hygiene, safety, and consistency from intake
+                to final distribution.
               </p>
-              <div className="inline-flex items-center gap-2 px-4 py-3 rounded-xl bg-primary/10 text-primary">
+              <div className="inline-flex items-center gap-2 px-4 py-3 rounded-xl bg-primary/10 text-black">
                 <MapPin className="w-5 h-5" />
-                <span className="font-medium">Available at all Ekhaya Farm Food Stores</span>
+                <span className="font-medium">
+                  Supplied through Ekhaya Farm Food Stores
+                </span>
               </div>
             </div>
           </div>
         </section>
 
         {/* Product Categories */}
-        {productCategories.map((category, categoryIndex) => (
-          <section key={categoryIndex} className={`py-20 ${categoryIndex % 2 === 0 ? "bg-background" : "bg-muted/30"}`}>
+        {productCategories.map((category, index) => (
+          <section
+            key={index}
+            className={`py-20 ${index % 2 === 0 ? "bg-background" : "bg-muted/30"}`}
+          >
             <div className="max-w-6xl mx-auto px-4">
               <div className="mb-10">
-                <h2 className="font-serif text-2xl sm:text-3xl font-bold text-foreground mb-3">{category.name}</h2>
-                <p className="text-muted-foreground max-w-2xl">{category.description}</p>
+                <h2 className="font-serif text-2xl sm:text-3xl font-bold text-foreground mb-3">
+                  {category.name}
+                </h2>
+                <p className="text-muted-foreground max-w-2xl">
+                  {category.description}
+                </p>
               </div>
+
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-                {category.products.map((product, productIndex) => (
+                {category.products.map((product, i) => (
                   <div
-                    key={productIndex}
+                    key={i}
                     className="bg-card rounded-xl border border-border overflow-hidden hover:shadow-lg transition-all group"
                   >
                     <div className="aspect-square overflow-hidden">
                       <img
-                        src={product.image || "/placeholder.svg"}
+                        src={product.image}
                         alt={product.name}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                     </div>
                     <div className="p-3 text-center">
-                      <h3 className="font-medium text-foreground text-sm">{product.name}</h3>
+                      <h3 className="font-medium text-foreground text-sm">
+                        {product.name}
+                      </h3>
                     </div>
                   </div>
                 ))}
@@ -116,12 +135,14 @@ export default function ProductsPage() {
         ))}
 
         {/* CTA */}
-        <section className="py-20 bg-primary">
+        <section className="py-20 bg-black">
           <div className="max-w-4xl mx-auto px-4 text-center">
-            <h2 className="font-serif text-3xl font-bold text-primary-foreground mb-4">Find These Products Near You</h2>
+            <h2 className="font-serif text-3xl font-bold text-white mb-4">
+              From Abattoir to Store
+            </h2>
             <p className="text-primary-foreground/80 mb-8 max-w-xl mx-auto">
-              All our products are available exclusively at Ekhaya Farm Food Stores. Find your nearest location and
-              experience farm-fresh quality today.
+              All processed meat products are distributed exclusively through
+              Ekhaya Farm Food Stores, ensuring traceability and quality control.
             </p>
             <Link href="/distribution">
               <Button size="lg" variant="secondary" className="rounded-xl gap-2">
@@ -132,7 +153,6 @@ export default function ProductsPage() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   )
 }

@@ -6,10 +6,18 @@ import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import localFont from "next/font/local"
 
 const dmSans = DM_Sans({ subsets: ["latin"] })
 const playfairDisplay = Playfair_Display({ subsets: ["latin"] })
 const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+/* Local Ekhaya font (headings) */
+const ekhayaFont = localFont({
+  src: "../public/fonts/EkhayaDisplayFont.otf",
+  variable: "--font-ekhaya",
+  display: "swap",
+})
 
 export const metadata: Metadata = {
   title: "Ekhaya Farms | Growing Malawi, Feeding Communities",

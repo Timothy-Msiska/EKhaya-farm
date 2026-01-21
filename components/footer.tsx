@@ -7,7 +7,6 @@ const footerLinks = {
     { href: "/about", label: "About Us" },
     { href: "/farms", label: "Our Farms" },
     { href: "/products", label: "Our Products" },
-    { href: "/sustainability", label: "Sustainability" },
   ],
   support: [
     { href: "/distribution", label: "Find a Store" },

@@ -29,7 +29,7 @@ export function TestimonialsSection() {
         <div className="text-center mb-16">
           <span className="text-blackfont-medium text-sm tracking-wider uppercase mb-4 block">Testimonials</span>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#D4AF37] text-balance">
-            Voices from the Inside 
+           Hear from Our Farmers
           </h2>
         </div>
 
