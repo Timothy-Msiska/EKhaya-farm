@@ -1,61 +1,50 @@
-// data/newsArticles.ts
-export interface Article {
-  slug: string
-  title: string
-  excerpt: string
-  date: string
-  category: string
-  image: string
-  content: string
+import { notFound } from "next/navigation";
+import { Calendar } from "lucide-react";
+import { newsArticles } from "../data/page";
+
+type Props = {
+  params: { slug: string };
+};
+
+export default function ArticlePage({ params }: Props) {
+  // ✅ Ensure newsArticles is an array before calling find
+  const articles = Array.isArray(newsArticles) ? newsArticles : [];
+  const article = articles.find(a => a.slug === params.slug);
+
+  // If no matching article, show 404
+  if (!article) return notFound();
+
+  return (
+    <main className="pt-32 pb-24">
+      <div className="max-w-3xl mx-auto px-4">
+        <span className="px-3 py-1 rounded-full bg-[#b5942f]/10 text-[#b5942f] text-xs">
+          {article.category}
+        </span>
+
+        <h1 className="font-serif text-4xl font-bold mt-4 mb-3">
+          {article.title}
+        </h1>
+
+        <div className="flex items-center gap-2 text-sm text-muted-foreground mb-8">
+          <Calendar className="w-4 h-4 text-[#b5942f]" />
+          {article.date}
+        </div>
+
+        <img
+          src={article.image}
+          alt={article.title}
+          className="rounded-2xl mb-10 w-full object-cover"
+        />
+
+        <article className="prose prose-neutral max-w-none">
+          {article.content
+            .trim()
+            .split("\n")
+            .map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+        </article>
+      </div>
+    </main>
+  );
 }
-
-export const newsArticles: Article[] = [
-  {
-    slug: "ekhaya-expands-to-karonga",
-    title: "Ekhaya Farms Expands to Karonga District",
-    excerpt:
-      "We are proud to open our newest Ekhaya Farm Food Store in Karonga, bringing trusted, high-quality meat products to northern Malawi.",
-    date: "December 15, 2025",
-    category: "Announcement",
-    image: "/placeholder.svg?height=300&width=500",
-    content: `
-Ekhaya Farms is pleased to announce the expansion of our operations to Karonga District.
-
-This new Ekhaya Farm Food Store will provide residents with access to premium beef, goat meat, and poultry produced through responsible livestock farming practices. By expanding north, we are strengthening Malawi’s meat supply chain and ensuring families have access to safe, nutritious protein.
-
-The Karonga store also creates employment opportunities and supports local livestock farmers through structured partnerships. This expansion reflects our long-term commitment to livestock development and food security across Malawi.
-    `,
-  },
-  {
-    slug: "record-livestock-growth-season",
-    title: "Record Livestock Growth This Season",
-    excerpt:
-      "Improved animal health programs and responsible feeding practices have resulted in record livestock growth across our farms.",
-    date: "December 10, 2025",
-    category: "Farm Update",
-    image: "/placeholder.svg?height=300&width=500",
-    content: `
-This season has been one of the most successful in Ekhaya Farms’ history.
-
-Through proper animal nutrition, veterinary care, and ethical breeding programs, our cattle, goats, and poultry recorded exceptional growth rates. Healthy livestock directly translates into better meat quality for our customers.
-
-These results demonstrate the value of responsible livestock management and continued farmer training, which remain central to our farming model.
-    `,
-  },
-  {
-    slug: "farmer-training-program",
-    title: "Community Training Program Graduates 100 Farmers",
-    excerpt:
-      "Over 100 livestock farmers have completed advanced training in animal health, feeding, and welfare practices.",
-    date: "November 28, 2025",
-    category: "Community",
-    image: "/placeholder.svg?height=300&width=500",
-    content: `
-Ekhaya Farms recently celebrated the graduation of 100 livestock farmers from our training program.
-
-The program focuses on animal welfare, disease prevention, proper feeding, and sustainable livestock practices. Graduates are now better equipped to raise healthy animals and supply high-quality meat to local markets.
-
-This initiative strengthens rural livelihoods while ensuring consistent meat standards across our supply chain.
-    `,
-  },
-]
