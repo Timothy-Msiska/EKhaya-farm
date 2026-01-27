@@ -40,27 +40,27 @@ const productCategories = [
       { name: "Minced Meat", image: "/meat-splash-2.jpg" },
     ],
   },
-  {
-    name: "Edible Offals",
-    description:
-      "Carefully cleaned and handled edible offals processed in compliance with hygiene standards.",
-    products: [
-      { name: "Liver", image: "/meat-splash-3.jpg" },
-      { name: "Kidneys", image: "/meat-splash-4.jpg" },
-      { name: "Tripe", image: "/meat-splash-1.jpg" },
-      { name: "Heart", image: "/meat-splash-2.jpg" },
-    ],
-  },
-  {
-    name: "Non Edible By Products",
-    description:
-      "Non edible meat by products handled responsibly as part of sustainable abattoir operations.",
-    products: [
-      { name: "Bones", image: "/meat-splash-1.jpg" },
-      { name: "Hides and Skins", image: "/meat-splash-2.jpg" },
-      { name: "Animal Fat", image: "/meat-splash-3.jpg" },
-    ],
-  },
+  // {
+  //   name: "Edible Offals",
+  //   description:
+  //     "Carefully cleaned and handled edible offals processed in compliance with hygiene standards.",
+  //   products: [
+  //     { name: "Liver", image: "/meat-splash-3.jpg" },
+  //     { name: "Kidneys", image: "/meat-splash-4.jpg" },
+  //     { name: "Tripe", image: "/meat-splash-1.jpg" },
+  //     { name: "Heart", image: "/meat-splash-2.jpg" },
+  //   ],
+  // },
+  // {
+  //   name: "Non Edible By Products",
+  //   description:
+  //     "Non edible meat by products handled responsibly as part of sustainable abattoir operations.",
+  //   products: [
+  //     { name: "Bones", image: "/meat-splash-1.jpg" },
+  //     { name: "Hides and Skins", image: "/meat-splash-2.jpg" },
+  //     { name: "Animal Fat", image: "/meat-splash-3.jpg" },
+  //   ],
+  // },
 ]
 
 export default function ProductsPage() {
