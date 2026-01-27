@@ -10,7 +10,7 @@ const livestockPractices = [
   },
   {
     icon: Sun,
-    title: "Energy-Efficient Operations",
+    title: "Energy Efficient Operations",
     description:
       "Solar-powered infrastructure reduces costs while maintaining consistent feeding, lighting, and animal care systems.",
   },
@@ -22,7 +22,7 @@ const livestockPractices = [
   },
   {
     icon: ThermometerSun,
-    title: "Climate-Responsive Housing",
+    title: "Climate Responsive Housing",
     description:
       "Livestock facilities are designed to minimize heat stress and protect animals from extreme weather conditions.",
   },
