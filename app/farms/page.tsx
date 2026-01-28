@@ -39,17 +39,17 @@ const livestock = [
   {
     name: "Cattle",
     items: ["Beef Cattle", "Dairy Cattle", "Improved Crossbreeds"],
-    image: "/livestock/cattle.jpg",
+    image: "/our-farm/cattle-animal.jpg",
   },
   {
     name: "Goats",
     items: ["Meat Goats", "Dairy Goats", "Indigenous Breeds"],
-    image: "/livestock/goats.jpg",
+    image: "/our-farm/goat-animal.jpg",
   },
   {
     name: "Sheep",
     items: ["Meat Sheep", "Wool Sheep", "Local Breeds"],
-    image: "/livestock/sheep.jpg",
+    image: "/our-farm/sheep-animal.jpg",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function FarmsPage() {
       <section className="relative min-h-screen flex items-center justify-center">
         <div className="absolute inset-0">
           <img
-            src="/livestock/farm-livestock-overview.jpg"
+            src="/our-farm/farms-h.jpg"
             alt="Ekhaya Livestock Farm"
             className="w-full h-full object-cover"
           />

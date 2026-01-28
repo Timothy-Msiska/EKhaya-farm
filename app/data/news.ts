@@ -6,7 +6,7 @@ export const newsArticles = [
       "We are proud to open our newest Ekhaya Farm Food Store in Karonga, bringing trusted, high-quality meat products to northern Malawi.",
     date: "December 15, 2025",
     category: "Announcement",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/blog.png?height=300&width=500",
     content: `
 Ekhaya Farms is pleased to announce the expansion of our operations to Karonga District.
 

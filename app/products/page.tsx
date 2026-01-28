@@ -10,10 +10,10 @@ const productCategories = [
     description:
       "Professionally slaughtered and hygienically processed red meat sourced from cattle, goats, and sheep.",
     products: [
-      { name: "Beef", image: "/meat-splash-1.jpg" },
-      { name: "Goat Meat", image: "/meat-splash-2.jpg" },
-      { name: "Mutton", image: "/meat-splash-3.jpg" },
-      { name: "Mixed Red Meat Cuts", image: "/meat-splash-4.jpg" },
+      { name: "Beef", image: "/primary-meat/meat2.jpg" },
+      { name: "Goat Meat", image: "/primary-meat/goat-leg.jpg" },
+      { name: "Mutton", image: "/primary-meat/mutton-shoulder.jpg" },
+      { name: "Mixed Red Meat Cuts", image: "/primary-meat/IMG_2909.jpg" },
     ],
   },
   {
@@ -21,12 +21,12 @@ const productCategories = [
     description:
       "Standard meat cuts prepared according to food safety regulations and quality control procedures.",
     products: [
-      { name: "Steak Cuts", image: "/meat-splash-1.jpg" },
-      { name: "Ribs", image: "/meat-splash-2.jpg" },
-      { name: "Brisket", image: "/meat-splash-3.jpg" },
-      { name: "Chunks and Portions", image: "/meat-splash-4.jpg" },
-      { name: "Bone in Cuts", image: "/meat-splash-1.jpg" },
-      { name: "Boneless Cuts", image: "/meat-splash-2.jpg" },
+      { name: "Steak Cuts", image: "/primary-meat/steak-rump.jpg" },
+      { name: "Ribs", image: "/primary-meat/ribs.jpg" },
+      { name: "Brisket", image: "/primary-meat/brisket.jpg" },
+      { name: "Chunks and Portions", image: "/primary-meat/chuck.jpg" },
+      // { name: "Bone in Cuts", image: "/meat-splash-1.jpg" },
+      // { name: "Boneless Cuts", image: "/meat-splash-2.jpg" },
     ],
   },
   {
@@ -34,10 +34,10 @@ const productCategories = [
     description:
       "Value added meat products processed for extended shelf life while maintaining quality and safety.",
     products: [
-      { name: "Sausages", image: "/meat-splash-3.jpg" },
-      { name: "corned Meat", image: "/meat-splash-4.jpg" },
-      { name: "Sausages", image: "/meat-splash-1.jpg" },
-      { name: "Minced Meat", image: "/meat-splash-2.jpg" },
+      { name: "breakfast Sausages", image: "/primary-meat/Beef-Saus.JPG" },
+      // { name: "corned Meat", image: "/primary-meat/Corned-meat.JPG" },
+      { name: "Cocktail Sausages", image: "/primary-meat/cock-tail.jpg" },
+      { name: "Minced Meat", image: "/primary-meat/mined.jpg" },
     ],
   },
   // {
